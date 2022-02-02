@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Consolas";
+    src: url(font/CONSOLA.TTF);
+}
+
+body
+{
+    background-color: black;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sbImg 
+{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    max-width: fit-content;
+    padding: 3%;
+    border-radius: 10px;
+
+}
+
+.sbTxt 
+{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    max-width: fit-content;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.sbLink {
+    display: table;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    max-width: fit-content;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.sbSrc 
+{
+    width: 250px;
+    height: auto;
+}
+
+h1 
+{
+    font-family: "Consolas";
+    color: white;
+}
+
+p 
+{
+    font-family: "Consolas";
+    color: white;
+}
+
+.instagramHolder 
+{
+    float: left;
+}
+
+.discordHolder 
+{
+    float: left;
+}
+
+.redditHolder
+{
+    float: left;
+}
+
+.githubHolder 
+{
+    float: left;
+}
+
+.youtubeHolder 
+{
+    float: left;
+}
+
+.soundcloudHolder 
+{
+    float: left;
+}
+
+.discord 
+{
+    filter: invert(1);
+}
+
+.instagram 
+{
+    filter: invert(1);
+}
+
+.reddit
+{
+    filter: invert(1);
+}
+
+.github 
+{
+    filter: invert(1);
+}
+
+.youtube 
+{
+    filter: invert(1);
+}
+
+.soundcloud 
+{
+    filter: invert(1);
+}
